@@ -1,0 +1,391 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("fonts/fontawesome-webfont.ttf");
+}
+body{
+    font-family: myFirstFont;
+}
+.sidePane{
+        position: fixed;
+        height: 100%;
+        width: 30%;
+        padding: 1%;
+        background-image: url("images/fulls/07.jpg");
+        text-align: right;
+        color: rgb(198,195,190);
+    }
+    .textWhite{
+        color: rgb(255,255,255);
+    }
+
+    .textGray{
+        color: rgb(110,110,110);
+    }
+
+    
+    u.dotted{
+        border-bottom: 1px dashed rgb(126,119,111);
+        text-decoration: none; 
+    }
+    .round {
+        position: absolute;
+        right: 0%;
+        margin: 5%;
+        background-image: url("images/avatar.jpg");
+        background-repeat: no-repeat;
+        background-position: 78% 14%;
+        border-radius: 100%;
+        width: 30%;
+        height: 20%;
+    }
+    .intro{
+        position: absolute;
+        top: 30%;
+        right: 10%;
+        line-height: 175%;
+        overflow: hidden;
+    }
+    .footer{
+        position: relative;
+        width: 6%;
+        height: 4%;
+        top: 80%;
+        float: right;
+        margin: 3%;
+    }
+    hr.vertical
+    {
+       width: 0px;
+       height: 1%; 
+    } 
+    .footerNote{
+        position: relative;
+        width: 90%;
+        height: 5%;
+        top: 80%;
+        float: right;
+        margin: 3%;
+        overflow: hidden;
+    }
+    #fusionCharts{
+        color: rgb(187,184,179);
+    }
+
+
+
+
+    .overview{
+        position: absolute;
+        color: rgb(109,109,109);
+        padding: 2%; 
+        right: 3%;
+        width: 60%;
+        height: 32%;
+        overflow: hidden;
+    }
+    #button1{
+        width: 15%;
+        position: absolute;
+        text-align: center;
+        height: 8%;
+        color: rgb(94,181,139);
+        padding: 1%;
+        border: 3px solid rgb(94,181,139);
+        left: 3%;
+        top: 78%;
+        cursor: pointer;  
+    }
+
+
+
+
+
+
+
+    .works{
+        position: absolute;
+        right: 3%;
+        top: 42%;
+        width: 64%;
+        height: 200%;
+        color: rgb(91,91,91);
+        
+    }
+    .works #title{
+        position: relative;
+        left: 3%;
+        vertical-align: middle;
+        overflow: hidden;
+    }
+    .row{
+        position: relative;
+        margin: 2%;
+        width: 96%;
+        height: 26%;
+        
+    }
+    .leftThumb{
+        float: left;
+        overflow: hidden;
+        position: relative;
+        margin: 1%;
+        width: 47%;
+        height: 60%;
+          
+        
+    }
+    .rightThumb{
+        float: left;
+        position: relative;
+        margin: 1%;
+        width: 47%;
+        height: 60%;
+        
+        overflow: hidden;
+           
+    }
+    img{
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+        
+    }
+    .leftText{
+        position: relative;
+        float: left;
+        margin: 1%;
+        width: 47%;
+        height: 30%;
+        
+    }
+    .rightText{
+
+        position: relative;
+        float: left;
+        margin: 1%;
+        width: 47%;
+        height: 30%;
+         
+    }
+    #button2{
+        width: 18%;
+        position: absolute;
+        padding: 1%;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(236,236,236);
+        height: 2%;
+        left: 2%;
+        top: 92%; 
+        cursor: pointer;   
+    }
+    
+
+
+
+
+
+    .contact{
+        position: absolute;
+        color:  rgb(88,88,88);
+        padding: 1%;
+        right: 3%;
+        top: 235%;
+        width: 62%;
+        height: 75%;
+        
+    }
+    .back_grey{
+        background-color: rgb(247,247,247);
+    }
+    .name{
+        width: 30%;
+        position: absolute;
+        height: 5%;
+        top: 29%;
+        padding: 1%;
+    }
+    .email{
+        padding: 1%;
+        width: 30%;
+        position: absolute;
+        height: 5%;
+        top: 29%;
+        left: 35%;    
+    }
+    .message{
+        width: 64%;
+        padding: 1%;
+        top: 42%;
+        position: absolute;
+        height: 35%;
+        vertical-align: top;
+    }
+    .homePic{
+        width: 3%;
+        position: absolute;
+        top: 30%;
+        right: 25%;
+        height: 5%;
+        overflow: hidden;
+    }
+    .add{
+        position: absolute;
+        width: 21%;
+        height: 30%;
+        right: 3%;
+        top: 29%;
+    }
+    .mobilePic{
+        right: 25%;
+        width: 3%;
+        position: absolute;
+        overflow: hidden;
+        top: 63%;
+        right: 25%;
+        height: 5%;    
+    }
+    .phoneNumber{
+        width: 21%;
+        position: absolute;
+        height: 8%;
+        right: 3%;
+        top: 63%;
+    }
+    .mailPic{
+        right: 25%;
+        width: 3%;
+        position: absolute;
+        top: 75%;
+        right: 25%;
+        height: 5%;
+        overflow: hidden;   
+    }
+    .mail{
+        width: 21%;
+        position: absolute;
+        height: 8%;
+        right: 3%;
+        top: 75%;        
+    }
+    #button3{
+        width: 15%;
+        height: 3%;
+        position: absolute;
+        left: 2%;
+        top: 88%; 
+        padding: 1%;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid rgb(236,236,236);
+        overflow: hidden;
+        cursor: pointer;
+    }
+    input[type="text"] 
+    {
+        width: 80%;
+        height: 100%;
+        background: transparent;
+        border: none;
+    }
+    #message{
+        width: 86%;
+        height: 90%;
+        padding: 5px;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        border: none;
+
+    }
+
+
+
+
+    .modalDialog {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.8);
+        z-index: 1;
+        opacity:0;
+        pointer-events: none;
+    }
+
+    .modalDialog:target {
+        opacity:1;
+        pointer-events: auto;
+    }
+
+    .modalDialog > div {
+        width: 60%;
+        height: 70%;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        margin: 0 auto;
+        padding: 1%;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(#fff, #999);
+        background: -webkit-linear-gradient(#fff, #999);
+        background: -o-linear-gradient(#fff, #999);
+    }
+    
+    .close {
+        background: #606061;
+        color: #FFFFFF;
+        line-height: 25px;
+        position: absolute;
+        right: -12px;
+        text-align: center;
+        top: -10px;
+        width: 24px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 12px;
+        box-shadow: 1px 1px 3px #000;
+    }
+    #normal1,#normal2, #normal3, #normal4, #normal5, #normal6 {
+        display: none;
+    }
+
+    #bigimages{
+        width: 93%;
+        height: 70%;
+        position: absolute;
+        float: left;
+        overflow:   hidden; 
+        border: 1px solid #000;
+        
+    }
+    #thumbs{
+        width: 15%;
+        position: relative;
+        float: left;
+        top: 80%;
+        height: 20%;
+        margin: 0.5%;
+        overflow: hidden;
+        border: 1px solid #000;
+
+    }
+    .close:hover { 
+        background: #00d9ff; 
+    }
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a:active {
+        text-decoration: underline;
+    }

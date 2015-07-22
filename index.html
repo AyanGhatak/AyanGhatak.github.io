@@ -1,1 +1,180 @@
-Hey How are you doing? 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile Page</title>
+<link rel="stylesheet" type="text/css" href="profileCSS.css">
+<script src="profileJS.js"></script> 
+</head>
+<body>
+    <div class="sidePane">
+        <div class="round"></div>
+        <div class="intro">
+            <div class="textWhite">I am Ayan</div>
+            <div>I am a Javascript Developer<br>working at <u class="dotted"><a id="fusionCharts" href="http://www.fusioncharts.com/" target="_blank">FusionCharts.</a></u></div>
+        </div>
+        <div class="footer">
+            <a href="https://www.facebook.com/ayanaccess" target="_blank">
+                <img src="images\fulls\08.jpg" width="20%" height="20%" />
+            </a>           
+        </div> 
+        <div class="footer">
+            <a href="http://stackoverflow.com/users/5102631/ayan" target="_blank">
+                <img src="images\fulls\09.png" width="10%" height="10%" />
+            </a>            
+        </div> 
+        <div class="footer">
+            <a href="https://twitter.com/iAmAyan007" target="_blank">
+                <img src="images\fulls\10.png" width="10%" height="10%" />
+            </a>            
+        </div> 
+        <div class="footer">
+            <a href="https://github.com/AyanGhatak" target="_blank">
+                <img src="images\fulls\11.png" width="10%" height="10%" />
+            </a>             
+        </div>
+        <div class="footerNote textGray" id="fusionCharts">
+            &copy; Profile Page &VerticalLine; Designed by <u class="dotted"><a id="fusionCharts" href="http://www.fusioncharts.com/" target="_blank">FusionCharts</a></u>     
+        </div>
+    </div>
+
+    <div class="overview">
+        <h2>Sed laoreet odio et sagittis blandit.<br>Praesent dictum felis id condimentum.</h2>
+        Aliquam egestas diam turpis, ac cursus diam vulputate id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum fermentum erat a tristique commodo. 
+        <div id="button1"><a class="textGray" href="#learn">Learn More</a></div>
+    </div>
+    
+    <div class="works">
+        <hr width="95%">
+        <div id="title"><h2>Recent work</h2></div>
+        <div class = "row">
+            <div class="leftThumb">
+                <img src="images\fulls\01.jpg" />
+            </div>
+            <div class="rightThumb">
+                <img src="images\fulls\02.jpg" />
+            </div>
+            <div class="leftText">
+                <h3>Lorem ipsum dolor sit amet</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut.
+            </div>
+            <div class="rightText">
+                <h3>Donec suscipit quis elit non.</h3>Donec sagittis lectus non nibh pulvinar, at ultrices.   
+            </div>
+        </div>
+        <div class = "row">
+            <div class="leftThumb">
+                <img src="images\fulls\03.jpg" />
+            </div>
+            <div class="rightThumb">
+                <img src="images\fulls\04.jpg" />
+            </div>
+            <div class="leftText">
+                <h3>Maecenas auctor posuere fermentum. Nulla.</h3>Maecenas rhoncus luctus augue, vel fringilla erat ultrices elementum. Phasellus.
+            </div>
+            <div class="rightText">
+                <h3>Nunc non lacus id leo.</h3>Sed semper neque lectus, et interdum sapien accumsan.   
+            </div>
+        </div>
+        <div class = "row">
+            <div class="leftThumb">
+                <img src="images\fulls\05.jpg" />
+            </div>
+            <div class="rightThumb">
+                <img src="images\fulls\06.jpg" />
+            </div>
+            <div class="leftText">
+                <h3>Duis in placerat augue. Mauris.</h3>Curabitur non dictum lorem. Aliquam in lorem ut.
+            </div>
+            <div class="rightText">
+                <h3>Nulla sollicitudin lacus vitae mauris.</h3>Sed dapibus nunc ornare felis consectetur semper. Nunc tempus consectetur.   
+            </div>
+        </div>
+        <div id="button2"><a class="textGray" href="#openModal"><b>Full Portfolio</b></a></div>
+    </div>
+    <div class="contact">
+        <hr>
+        <div id="title"><h2>Get in Touch</h2></div>Donec lobortis vitae urna id mattis. Pellentesque dolor mauris, faucibus non auctor a, malesuada eget nunc. Pellentesque ut velit eget neque varius aliquet.Nulla quam felis, elementum quis dictum eget, finibus ac leo.
+        <div class="name back_grey">
+            Name
+            <input type="text" name="name" maxlength="30" id="txt_name">
+        </div>
+        <div class="email back_grey">
+            Email
+            <input type="text" name="email" id="txt_email">
+        </div>
+        <div class="add">47/5 A.B.Chattaraj Road,<br>Panchalisa, Hoogly<br>West Bengal-753212<br>India
+        </div>
+        <div class = "message back_grey">
+            Message
+            <textarea name="message" id="message"  class="back_grey"></textarea>
+        </div>
+        <div class="homePic">
+            <img src="images\fulls\13.png" width="10%" height="10%" />
+        </div>
+        <div class="mobilePic">
+            <img src="images\fulls\12.gif" width="10%" height="10%" />
+        </div>
+        <div class="phoneNumber">000-000-0000</div>
+        <div class="mailPic"><img src="images\fulls\14.png" width="10%" height="10%" /></div>
+        <div class="mail">hello@untitled.tld</div>
+        <div id="button3" onclick="processFormData()"><b>Send Message</b>
+        </div>
+    </div>
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <div id="bigimages">
+                <img src="images/thumbs/01.jpg" alt="" />
+                <div id="normal1">
+                    <img src="images/thumbs/01.jpg" alt=""/>
+                </div>  
+                
+                <div id="normal2">
+                    <img src="images/thumbs/02.jpg" alt=""/>
+                </div>  
+                
+                <div id="normal3">
+                    <img src="images/thumbs/03.jpg" alt=""/>
+                </div>  
+                
+                <div id="normal4">
+                    <img src="images/thumbs/04.jpg" alt=""/>
+                </div>  
+                
+                <div id="normal5">
+                    <img src="images/thumbs/05.jpg" alt=""/>
+                </div>
+                <div id="normal6">
+                    <img src="images/thumbs/06.jpg" alt=""/>
+                </div>    
+            </div>
+            <div id="thumbs">
+                    <a href="javascript: changeImage(1);"><img src="images/thumbs/01.jpg" alt="" /></a>    
+            </div>
+            <div id="thumbs">
+                    <a href="javascript: changeImage(2);"><img src="images/thumbs/02.jpg" alt="" /></a>    
+            </div>
+            <div id="thumbs">
+                    <a href="javascript: changeImage(3);"><img src="images/thumbs/03.jpg" alt="" /></a>    
+            </div>
+            <div id="thumbs">
+                    <a href="javascript: changeImage(4);"><img src="images/thumbs/04.jpg" alt="" /></a>                   
+            </div>
+            <div id="thumbs">
+                    <a href="javascript: changeImage(5);"><img src="images/thumbs/05.jpg" alt="" /></a>
+            </div>
+            <div id="thumbs">
+                    <a href="javascript: changeImage(6);"><img src="images/thumbs/06.jpg" alt="" /></a>    
+            </div>
+        </div>
+    </div>
+    <div id="learn" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Sed laoreet odio et sagittis blandit.<br>Praesent dictum felis id condimentum.</h2>
+        Aliquam egestas diam turpis, ac cursus diam vulputate id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum fermentum erat a tristique commodo. Vivamus feugiat nulla ipsum, nec cursus orci consequat et. Phasellus pretium sem ut tortor vulputate aliquet.Aliquam egestas diam turpis, ac cursus diam vulputate id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum fermentum erat a tristique commodo. Vivamus feugiat nulla ipsum, nec cursus orci consequat et. Phasellus pretium sem ut tortor vulputate aliquet.Aliquam egestas diam turpis, ac cursus diam vulputate id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum fermentum erat a tristique commodo. Vivamus feugiat nulla ipsum, nec cursus orci consequat et. Phasellus pretium sem ut tortor vulputate aliquet.<br>Aliquam egestas diam turpis, ac cursus diam vulputate id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum fermentum erat a tristique commodo. Vivamus feugiat nulla ipsum, nec cursus orci consequat et. Phasellus pretium sem ut tortor vulputate aliquet.<br><br>Aliquam egestas diam turpis, ac cursus diam vulputate id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum fermentum erat a tristique commodo. Vivamus feugiat nulla ipsum, nec cursus orci consequat et. Phasellus pretium sem ut tortor vulputate aliquet.Aliquam egestas diam turpis, ac cursus diam vulputate id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum fermentum erat a tristique commodo. Vivamus feugiat nulla ipsum, nec cursus orci consequat et. Phasellus pretium sem ut tortor vulputate aliquet.
+        </div>
+    </div>
+</body>
+</html>
+
+
